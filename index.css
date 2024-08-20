@@ -126,7 +126,7 @@
     color: #000000;
   }
   
-  @media only screen and (max-width: 730px){
+  @media only screen and (max-width: 768px){
 
     #image-name, #title-info, #details-section{
       width: 100%;
