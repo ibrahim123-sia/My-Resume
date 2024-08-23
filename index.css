@@ -1,139 +1,158 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  
-  #main-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #f9f9f9;
-    width: 60%;
-    margin: 40px auto;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
-  }
-  
- 
-  #header {
-    text-align: center;
-    padding: 15px;
-    background-color: #333;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  
-  #profile-section {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    padding: 20px;
-    border-bottom: 5px solid #333;
-  }
-  
-  
-  #image-name {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-right: 20px;
-    border-right: 2px solid #ccc;
-  }
-  
-  
-  #profile-image {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  
-  
-  #title-info {
-    margin-top: 10px;
-    width: 65%;
-    padding-left: 20px;
-    text-align: left;
-  }
-  #p1{
-    margin-bottom: 10px;
-    color: #333;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-  }
-    
-  
-  #title-info p {
-    margin: 10px 0;
-    color: #000000;
-    line-height: 1.5;
-  }
-  
-  
-  #details-section {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  
-  
-  #experience {
-    flex-wrap: wrap;
-    text-align: left;
-    width: 55%;
-    padding-right: 20px;
-    border-right: 2px solid #ccc;
-  }
-  
-  #experience h2,
-  #experience h3 {
-    margin-bottom: 15px;
-    color: #000000;
-  }
-  #experience p {
-    margin-bottom: 10px;
-    color: #000000;
-  }
-  #experience ul {
-    margin-left: 50px;
-    margin-top: 5px;
-    color: #000000;
-  }
-  
-  
-  #education-certification {
-    text-align: left;
-    flex-wrap: wrap;
-    width: 45%;
-    padding-left: 20px;
-  }
-  
-  #education-certification h2 {
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-    color: #000000;
-  }
-  
-  #education-certification p {
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-    color: #000000;
-  }
-  
-  @media only screen and (max-width: 768px){
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    #image-name, #title-info, #details-section{
+#main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  width: 60%;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+#header {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#profile-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 5px solid #333;
+}
+
+#image-name {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  border-right: 2px solid #ccc;
+}
+
+#profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#title-info {
+  margin-top: 10px;
+  width: 65%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#p1 {
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#title-info p {
+  margin: 10px 0;
+  color: #000000;
+  line-height: 1.5;
+}
+
+#details-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#experience {
+  text-align: left;
+  width: 55%;
+  padding-right: 20px;
+  border-right: 2px solid #ccc;
+}
+
+#experience h2,
+#experience h3 {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+#experience p {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+#experience ul {
+  margin-left: 50px;
+  margin-top: 5px;
+  color: #000000;
+}
+
+#education-certification {
+  text-align: left;
+  width: 45%;
+  padding-left: 20px;
+}
+
+#education-certification h2 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+#education-certification p {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  #main-container {
+      width: 90%;
+      margin: 20px auto;
+  }
+
+  #image-name,
+  #title-info,
+  #details-section {
       width: 100%;
       text-align: center;
-
-
-    }
-
-
+      padding: 0;
+      border: none;
   }
+
+  #profile-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #image-name {
+      padding: 0;
+      border-bottom: 2px solid #ccc;
+      border-right: none;
+      margin-bottom: 20px;
+  }
+
+  #title-info {
+      padding: 0;
+  }
+
+  #experience,
+  #education-certification {
+      width: 100%;
+      padding: 0;
+      border: none;
+  }
+
+  #experience {
+      margin-bottom: 20px;
+  }
+}
