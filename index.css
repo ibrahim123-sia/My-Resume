@@ -128,8 +128,8 @@
       padding: 0;
       border: none;
   }
-  #detail{
-    margin-left: 10px;
+  #details-section{
+    margin-left: 25px;
   }
   #profile-section {
       flex-direction: column;
